@@ -9,7 +9,7 @@ Codes used to create figures and other analyses for the manuscript exploring the
 
 4)  Plot_temperature_map_Nordic.ipynb - Creates maps of the temperature for CMIP6 models in the vertical model level closest to 800 m for the Nordic Seas and subpolar North Atlantic, used to make Figure S1. 
    
-5)  Plot_TS_DS.ipynb - Computes the mean temperature and salinity at the Denmark Strait location for CMIP6 model potential densities greater than 1027.8 (or between 350 and 700 m, if there are no waters dense enough in the profile).  Adds the model results to the T-S plots (i.e. the dots and arrows in Figure 4a).
+5)  Plot_CMIP_TS_DenStrait.ipynb - Computes the mean temperature and salinity at the Denmark Strait location for CMIP6 model potential densities greater than 1027.8 (or between 350 and 700 m, if there are no waters dense enough in the profile).  Adds the model results to the T-S plots (i.e. the dots and arrows in Figure 4a).
 
 6)  Plot_TS_FSC.ipynb - Computes the mean temperature and salinity at the Faroe Bank location for CMIP6 model potential densities greater than 1027.8 (or between 350 and 800 m, if there are no waters dense enough in the profile).  Adds the model results to the T-S plots (i.e. the dots and arrows in Figure 4b).
 
