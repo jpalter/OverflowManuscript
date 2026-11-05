@@ -1,5 +1,13 @@
 # OverflowManuscript
-Codes used to create figures and other analyses for the manuscript exploring the rate of Overflow Transports out of the Nordic Seas.
+Revised following manuscript review.  Hugely streamlined the codes to make all figures.
+
+1) plot_outflow_bathymetry.m runs the streamtube model and can be used to create Figure 3 of the "default trajectory" or run in loops (provided in script) to calculate transports while varying source water T, S.
+
+2) Delta_TS_plot_withCMIP6.ipynb ingests the results of the streamtube model and CMIP6 output to make Figure 4 and Supplementary Figure S2.
+
+3) Plot_temperature_map_Nordic.ipynb - Creates maps of the temperature for CMIP6 models in the vertical model level closest to 800 m for the Nordic Seas and subpolar North Atlantic, used to make Figure S1. 
+
+Original submission used the following codes  to create figures and other analyses for the manuscript exploring the rate of Overflow Transports out of the Nordic Seas.
 
 1) Price_and_Barringer_FBC_loopy.m runs the streamtube model, configured for the Faroe Bank Channel, and looping over all the temperature and salinities.  Used to make the colors in Figure 4.  It can be modified for Denmark Strait location.
 
