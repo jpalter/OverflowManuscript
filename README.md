@@ -5,7 +5,9 @@ Revised following manuscript review.  Hugely streamlined the codes to make all f
 
 2) Delta_TS_plot_withCMIP6.ipynb ingests the results of the streamtube model and CMIP6 output to make Figure 4 and Supplementary Figure S2.
 
-3) Plot_temperature_map_Nordic.ipynb - Creates maps of the temperature for CMIP6 models in the vertical model level closest to 800 m for the Nordic Seas and subpolar North Atlantic, used to make Figure S1. 
+3) Plot_temperature_map_Nordic.ipynb - Creates maps of the temperature for CMIP6 models in the vertical model level closest to 800 m for the Nordic Seas and subpolar North Atlantic, used to make Figure S1.
+
+4) SST_climatology.m - Creates the SST basemap used for the Figure 1a schematic (the rest of the schematic was drawn in Illustrator).  It also calculates and plots the wintertime zonal temperature anomaly for Figure 2.
 
 Original submission used the following codes  to create figures and other analyses for the manuscript exploring the rate of Overflow Transports out of the Nordic Seas.
 
